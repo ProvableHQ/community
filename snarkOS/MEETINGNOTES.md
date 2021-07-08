@@ -12,18 +12,23 @@ Please write any questions that you would like to have answered during the snark
 - How is the progress on the CUDA (GPU based) implementation?
 
 
-## Important Points
+## Standups
+
+* Max
+* Lukasz
+* Niklas
+* Akis
+* Jules
+* Fabiano
+
+## Orphan Rate
 
 -
 
-## Topic 1
+## Multi-Network Support
 
 -
 
-## Topic 2
-
--
-
-## Topic 3
+## Storage Abstraction Layer
 
 -
