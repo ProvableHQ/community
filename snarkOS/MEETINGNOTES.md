@@ -33,7 +33,8 @@ Tracking Epic:  https://github.com/aleohq/snarkos/issues/826
 
 Tracking Epic:  https://github.com/AleoHQ/snarkOS/issues/928
 
-[Need to write an ARC](https://github.com/aleohq/snarkos/issues/929) (Aleo Request for Comments):  https://github.com/AleoHQ/ARCs
+* [Need to write an ARC](https://github.com/aleohq/snarkos/issues/929) (Aleo Request for Comments):  https://github.com/AleoHQ/ARCs
+* Community network migration plan towards `testnet2` : https://github.com/aleohq/snarkos/issues/935
 
 ## Potential Future Work
 
