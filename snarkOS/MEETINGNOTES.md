@@ -71,6 +71,7 @@ Tracking Epic:  https://github.com/AleoHQ/snarkOS/issues/928
 
 * Fabiano:  Should we run storage validator on every run for auto-deploy?  Answer:  Makes sense.  For auto-deploy, we can run the validation as a test before starting a node.
 * How to expedite storage fix problems.
+Decouple ledger from storage, decouple storage from network context, stricter enforcement of constraints (i.e. indexes)
 
  
 
