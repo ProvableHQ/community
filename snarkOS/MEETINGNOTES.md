@@ -26,6 +26,11 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ### Niklas:
 
+* Implemented a fork detection tool, the output of which is exposed via the `getnetworkgraph` rpc endpoint. It maps potential fork heights to member nodes of the fork. This was merged into `staging` yesterday.
+* PR reviews and testnet crawler db investigations (26k fork).
+* Currently continuing work on peering improvements and bugfixes.
+* No blockers.
+
 ### Akis:
 
 ### Jules:
