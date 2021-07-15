@@ -18,11 +18,15 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 * Improved and added some test cases.
 * Slightly blocked on https://github.com/AleoHQ/snarkOS/pull/937 being merged.
 
+Fabiano:  Can we add an option so that it immediately exits after validation?   Answer:  Yes.  
+
 ### Max:
 
-* SnarkVM IR still waiting for review (presumably deprioritized by testnet2 work) -- need to bug howard more
-* Trait refactors in snarkVM in preparation for storage refactor cancelled by request from howard
-* For storage refactor, storage model is done, working on a separate ledger model during integration of storage model in consensus.
+* SnarkVM IR still waiting for review (presumably deprioritized by testnet2 work) -- need to bug howard more. Howard:  We can look at the IR next week.  We need to do the setup ceremony first.  Howard is working on that first.
+* Trait refactors in snarkVM in preparation for storage refactor cancelled by request from howard.  (Howard wants to do them himself).
+* For storage refactor, storage model is done, working on a separate ledger model during integration of storage model in consensus
+
+What can we do to stop the miner stalls?  Max:  Process blocks as a critical section could help.  There could be a race condition w/ the status checks.  Rewrite of storage implicitly will include a fix for this.  
 
 ### Niklas:
 
@@ -33,9 +37,23 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ### Akis:
 
+* Currently working on PoSW docs.  
+* PR for the orphan blocks has been approved.  Need to merge into staging.
+* Taking a snapshot of the orphan rate every `x` blocks should give us easy to read stats for the orphan rate.
+* Initially we want to get the numbers for the last 24-48 hours.  I can put up a script and get some numbers on some real-time graph.  Neet to watch rate changes after changes are pushed.  Fabiano to help with creating a visualization of this rate.
+
 ### Jules:
 
+* Just gotten the tie-breaker patch merged into staging
+* Working on Setup and away from this project.
+
 ### Fabiano:
+
+* Running all the nodes w/ min 100 and max of 5000.  All fine.
+* One node which started downloading the whole change.
+* Refactored the deployment automation due to a bug.  Added automatic backup of the database so we can roll-back if we need to.
+* Ran us1 w/ the optimized TCP stack settings.  This week:  Roll out to the other nodes.
+* Want to replace the IPs of the bootnodes w/ floating IPs so that we can hot-patch. Both old and new IPs will still work.
 
 ## Orphan Rate
 
@@ -45,11 +63,16 @@ Tracking Epic:  https://github.com/aleohq/snarkos/issues/826
 
 Tracking Epic:  https://github.com/AleoHQ/snarkOS/issues/928
 
+* Storage refactor is the blocker/enabler for multi-network support.  
+* Most important thing to start:  Make sure what's represented on disk is modular per network.
+* Single network per snarkOS node.
 
-## Community Questions
+## Questions (Community welcome!)
 
-Please write any questions that you would like to have answered during the snarkOS standup below (Please use bullet point format):
+* Fabiano:  Should we run storage validator on every run for auto-deploy?  Answer:  Makes sense.  For auto-deploy, we can run the validation as a test before starting a node.
+* How to expedite storage fix problems.
 
+ 
 
 -------------
 
