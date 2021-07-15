@@ -14,6 +14,10 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ### Max:
 
+* SnarkVM IR still waiting for review (presumably deprioritized by testnet2 work) -- need to bug howard more
+* Trait refactors in snarkVM in preparation for storage refactor cancelled by request from howard
+* For storage refactor, storage model is done, working on a separate ledger model during integration of storage model in consensus.
+
 ### Niklas:
 
 ### Akis:
