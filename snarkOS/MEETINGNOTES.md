@@ -12,6 +12,12 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ### Lukasz:
 
+* Detected, investigated and reported some oddities related to the commitment tree merkle tree root calculation.
+* Done multiple PR reviews.
+* Further improvements to the storage validator tool.
+* Improved and added some test cases.
+* Slightly blocked on https://github.com/AleoHQ/snarkOS/pull/937 being merged.
+
 ### Max:
 
 * SnarkVM IR still waiting for review (presumably deprioritized by testnet2 work) -- need to bug howard more
