@@ -1,3 +1,44 @@
+# snarkOS Standup Notes (7/15/21)
+
+Welcome to the notes page for the most recent snarkOS standup. Please see below for topics covered during the public discussion:
+
+## Agenda
+
+* Weekly standups from the snarkOS team (30 min.)
+* Current sprint epic conversation (10 min.)
+* Community questions (15 min.)
+
+## Standups
+
+### Lukasz:
+
+### Max:
+
+### Niklas:
+
+### Akis:
+
+### Jules:
+
+### Fabiano:
+
+## Orphan Rate
+
+Tracking Epic:  https://github.com/aleohq/snarkos/issues/826
+
+## Multi-Network Support
+
+Tracking Epic:  https://github.com/AleoHQ/snarkOS/issues/928
+
+
+## Community Questions
+
+Please write any questions that you would like to have answered during the snarkOS standup below (Please use bullet point format):
+
+
+-------------
+
+
 # snarkOS Standup Notes (7/8/21)
 
 Welcome to the notes page for the most recent snarkOS standup. Please see below for topics covered during the public discussion:
