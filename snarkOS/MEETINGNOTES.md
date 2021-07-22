@@ -21,7 +21,9 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 * handled a few snarkOS contributions (1 issue, 2 PRs) from community members
 
 ### Max:
-  
+* Written, currently testing storage refactor
+  * We will need a complete rewrite of db schema to be multi-net compatible (properly), future PR though
+  * Currently is backwards compatible with old schema
 
 ### Niklas:
 
