@@ -12,7 +12,13 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 
 ### Lukasz:
-  
+
+* sped up the storage validator tool by ~40%, shared detected some small performance wins with snarkVM
+* added the storage validator tweaks requested by Fabiano
+* reduced the CI runtime by disabling duplicate tests
+* reduced the incidence of CI job failures by tweaking flaky network tests
+* done some snarkVM reviews (the engineering/code side)
+* handled a few snarkOS contributions (1 issue, 2 PRs) from community members
 
 ### Max:
   
