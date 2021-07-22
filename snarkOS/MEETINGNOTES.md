@@ -20,10 +20,17 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 * done some snarkVM reviews (the engineering/code side)
 * handled a few snarkOS contributions (1 issue, 2 PRs) from community members
 
+Blocker:  Pull request with snarkVM update.  testnet2 related refactoring.  Transaction kernel doesn't work. See:  PR:  937
+
+
 ### Max:
 * Written, currently testing storage refactor
-  * We will need a complete rewrite of db schema to be multi-net compatible (properly), future PR though
-  * Currently is backwards compatible with old schema
+* We will need a complete rewrite of db schema to be multi-net compatible (properly), future PR though
+* Currently is backwards compatible with old schema
+
+Will put the prelim PR up on a branch so we can review.
+
+Blockers: None.
 
 ### Niklas:
 
@@ -32,13 +39,21 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 * Refactored unnecessary async functions to be synchronous where possible. Improved the peering tests and related setup code following the peering changes.
 * Multiple PR reviews.
 
-
+Let's add an ARC to document the definition of a bootnode, mining node, client node.
 
 ### Akis:
 
+* Orphan Rate:  No progress this week.
+
+PR went in.  It's in staging.  Do we need cut a release? Master is two weeks behind.  Metrics are most accurate on staging right now.  Let's cut a release before we merge the snarkVM update.  Howard to cut a release today or tomorrow.
+
+The next snarkVM merge will be the last snarkVM to support testnet1.  We will move from 0.7.x to 1.x.  
+
+Lukasz will check the nodes to make sure that we're able to gather the data for orphan rates.
 
 ### Jules:
 
+Working on Setup.
 
 ### Fabiano:
 
@@ -52,6 +67,11 @@ Tracking Epic:
 
 Tracking Epic:  
 
+## Take-aways:
+
+* Need an ARC for node definitions:  [#957](https://github.com/AleoHQ/snarkOS/pull/957)), opened [#960](https://github.com/AleoHQ/snarkOS/issues/960) 
+* The next snarkVM merge will be the last snarkVM to support testnet1.  We will move from 0.7.x to 1.x.  
+* Max:  Will put the prelim PR up on a branch so we can review.
 
 ## Questions (Community welcome!)
 
