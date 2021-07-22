@@ -25,6 +25,12 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ### Niklas:
 
+* Implemented improvements to peer lists by only propagating routable addresses (details in [#927](https://github.com/AleoHQ/snarkOS/pull/927)).
+* Proposed the separation of crawlers from bootnodes (details and discussion in [#957](https://github.com/AleoHQ/snarkOS/pull/957)), opened [#960](https://github.com/AleoHQ/snarkOS/issues/960) to track the discussion regarding the removal of the sync layer from bootnodes and crawlers.
+* Refactored unnecessary async functions to be synchronous where possible. Improved the peering tests and related setup code following the peering changes.
+* Multiple PR reviews.
+
+
 
 ### Akis:
 
