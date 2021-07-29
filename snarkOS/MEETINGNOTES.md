@@ -23,9 +23,27 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 * did multiple PR reviews for snarkVM
 * filed a PR with improved (randomized) test data for some snarkVM tests
 
+Blockers:  Seven open PRs in snarkOS.  Niklas is out this week.  Max or Howard can review.   Max will look at them today.
+
+snarkVM upgrade PR approved.  Waiting on Howard.  Need to cut a release in the meantime.
+
+Syncing improvements:  PR is there to improve distances of indexes between hashes of blocks.  This should alleviate some syncing problems.  Ready to do another pass on storage refactor PRs.
+
+Confirmation:  Network crawler data is correct.
+
 ### Max:
 
 * Storage refactor stable in testing -- finishing up rustdocs and unit tests
+* Finished RPC to be fully async.
+
+Going to forge ahead and getting storage in, will rebase snarkVM on top of that.
+
+Blockers:  Reviews.
+
+### Howard:
+
+* Working on snarkVM side to get the DPC bits decoupled.
+* Consensus is something I'd like to touch soon.  Need to wait on the storage PRs.  Consensus is missing a lot of checks.  Doesn't check the parity of the fields we're providing in the transaction.  There's a lot of missing checks.  
 
 ### Niklas:
 
@@ -33,7 +51,7 @@ OOO
 
 ### Akis:
 * still working on posw documentation
-* confirmed that the [#280](https://github.com/AleoHQ/snarkVM/issues/280) issue is not expected behaviour, as stated in the discussion
+* confirmed that the [#280](https://github.com/AleoHQ/snarkVM/issues/280) issue is not expected behaviour, as stated in the discussion.  Howard will eventually get to this.  Summary:  Issue shouldn't be prevalent.
 
 ### Jules:
 
@@ -52,6 +70,8 @@ Max:
 
 ## Multi-Network Support
 
+Howard:  At the moment, we're just going to keep testnet2/groth16 on a seperate branch.  
+
 Tracking Epic:  
 
 Max:
@@ -59,8 +79,13 @@ Max:
 
 ## Take-aways:
 
+* We have a traffic jam of PRs waiting to land in staging.  Let's get these all reviewed ASAP.  Let's try to get them reviewed by EOD Friday.  It's lots of work, and we may not be able to get it done by the end of the week.
+
 ## Questions (Community welcome!)
 
+No questions today.
+
+FPGA integrations coming so we can do FPGA-based mining... demo coming.
 
 
 -------------
