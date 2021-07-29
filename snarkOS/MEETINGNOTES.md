@@ -32,6 +32,8 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 OOO
 
 ### Akis:
+* still working on posw documentation
+* confirmed that the #280 issue is not expected behaviour, as stated in the discussion
 
 ### Jules:
 
