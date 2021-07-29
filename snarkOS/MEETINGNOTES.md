@@ -14,10 +14,20 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ### Lukasz:
 
+* fixed the snarkOS issue where the `getnodestats` RPC would not provide stats when running with the `prometheus` feature
+* proposed a private RPC call to connect to the given addresses
+* extended RPC tests
+* fixed a network crawler peering bug
+* fixed the queued outbound message count metric (appears to be solved for good this time)
+* improved the performance of the network crawler
+* did multiple PR reviews for snarkVM
+* filed a PR with improved (randomized) test data for some snarkVM tests
+
 ### Max:
 
 ### Niklas:
 
+OOO
 
 ### Akis:
 
