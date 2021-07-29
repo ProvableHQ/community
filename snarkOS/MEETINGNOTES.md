@@ -35,6 +35,8 @@ OOO
 
 ### Jules:
 
+* Still away working on Setup
+
 ### Fabiano:
 
 OOO
