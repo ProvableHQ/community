@@ -33,7 +33,7 @@ OOO
 
 ### Akis:
 * still working on posw documentation
-* confirmed that the #280 issue is not expected behaviour, as stated in the discussion
+* confirmed that the [#280](https://github.com/AleoHQ/snarkVM/issues/280) issue is not expected behaviour, as stated in the discussion
 
 ### Jules:
 
