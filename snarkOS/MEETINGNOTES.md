@@ -21,6 +21,11 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 * did some PR reviews in snarkVM
 
 ### Max:
+
+* snarkOS storage refactor is stable, working to sync to canon tip twice now locally.
+* Consensus/sync debugging yielded a strong improvement, was able to sync to tip with no hangs.
+* Storage refactor docs are done
+
 ### Howard:
 
 ### Niklas:
