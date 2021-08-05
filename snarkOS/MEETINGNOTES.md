@@ -13,6 +13,12 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ### Lukasz:
 
+* fixed a network crawler peering bug
+* did an extra review pass of the storage refactor
+* fixed a heavy slowdown of the Merkle tree initialization process introduced in a snarkVM update
+* investigated what looked like a memory leak related to connections
+* improved the granularity of locator hashes
+* did some PR reviews in snarkVM
 
 ### Max:
 ### Howard:
