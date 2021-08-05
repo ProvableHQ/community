@@ -20,13 +20,20 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 * improved the granularity of locator hashes
 * did some PR reviews in snarkVM
 
+Blockers:  Nothing other than the storage refactor, release.  
+
 ### Max:
 
 * snarkOS storage refactor is stable, working to sync to canon tip twice now locally.
 * Consensus/sync debugging yielded a strong improvement, was able to sync to tip with no hangs.
 * Storage refactor docs are done
 
+Blockers:  None.
+
 ### Howard:
+
+* Been focused on the groth16 branch.  
+* Discussed with Max:  We have a backup impl pre-storage refactor which can potentially be used for debugging.
 
 ### Niklas:
 
@@ -34,22 +41,37 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 * Benchmarked the network metrics computation after seeing slow crawler rpc response times. The computation is fast, the node was likely saturated because of the overly high peer limits set for the testnet bootnodes. A high inbound queue value confirmed this.
 * Wrote the first draft of the node type ARC (21), the goal is to codify the properties of each node type, input welcome.
 
+Blockers:  None.
+
 ### Akis:
 
 ### Jules:
 
+### Mark
+
+* Working on graphs w/ Fabiano.
+
 ### Fabiano:
+
+* Increased the size of the nodes due to increased mem usage.
+* Validating storage across all nodes.
+* Made changes to automation so that nodes are automatically update on stable.
+* Replace the IPs with floating IPs for load balancer.
+* Finishing rolling out optimized TCP/IP stack
+* Finish automation of validation of storage before restarting.
 
 ## Orphan Rate
 
 Tracking Epic:  
 
 Max:
-* TODO: aggressively restart miners when new canon block is found (https://github.com/AleoHQ/snarkOS/issues/970)
+* TODO: aggressively restart miners when new canon block is found (https://github.com/AleoHQ/snarkOS/issues/970). Update:  Haven't started on this yet.
 
 ## Multi-Network Support
 
-Howard:  At the moment, we're just going to keep testnet2/groth16 on a seperate branch.  
+Howard:  At the moment, we're just going to keep testnet2/groth16 on a seperate branch.  Update:  There will be interface changes.  Will address when we get there.
+
+
 
 Tracking Epic:  
 
@@ -58,10 +80,16 @@ Max:
 
 ## Take-aways:
 
+* No longer jammed on PRs.  Still have the storage refactor up for review.  We need to still release.  Pref before the storage refactor.  Howard:  Refactor should be good to go.  Haven't looked at it in a week, but assuming the model hasn't changed we should be good to go.   Max:  There's a couple of issues that I'd like to address in the comments.  
+* Need feedback on ARC-21.
+* Fabiano:  Will reduce the max peers to 750 on our nodes.  Will look into load balancer.  Will hold off for now.
+* 1.3.13 Release should happen soon.
+
+
+
 ## Questions (Community welcome!)
 
-No questions today.
-
+* Is the reason blockchain projects don't use load balancers because of the trust model (have to trust the load balancer to remain online / not be malicious?) Is that not the case here?
 
 -------------
 
