@@ -1,3 +1,56 @@
+# snarkOS Standup Notes (8/5/21)
+
+Welcome to the notes page for the most recent snarkOS standup. Please see below for topics covered during the public discussion:
+
+## Agenda
+
+* Weekly standups from the snarkOS team (30 min.)
+* Current sprint epic conversation (10 min.)
+* Community questions (15 min.)
+
+## Standups
+
+
+### Lukasz:
+
+
+### Max:
+### Howard:
+
+### Niklas:
+
+### Akis:
+
+### Jules:
+
+### Fabiano:
+
+## Orphan Rate
+
+Tracking Epic:  
+
+Max:
+* TODO: aggressively restart miners when new canon block is found (https://github.com/AleoHQ/snarkOS/issues/970)
+
+## Multi-Network Support
+
+Howard:  At the moment, we're just going to keep testnet2/groth16 on a seperate branch.  
+
+Tracking Epic:  
+
+Max:
+* TODO: introduce new serialization format: https://github.com/AleoHQ/snarkOS/issues/971
+
+## Take-aways:
+
+## Questions (Community welcome!)
+
+No questions today.
+
+
+-------------
+
+
 
 # snarkOS Standup Notes (7/29/21)
 
