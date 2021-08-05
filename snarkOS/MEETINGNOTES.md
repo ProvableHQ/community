@@ -25,6 +25,10 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ### Niklas:
 
+* Back from vacation, opened a number of PRs following the Rust 1.54 release, updates CI and reinstates external docs in snarkOS (blocked by circleci).
+* Benchmarked the network metrics computation after seeing slow crawler rpc response times. The computation is fast, the node was likely saturated because of the overly high peer limits set for the testnet bootnodes. A high inbound queue value confirmed this.
+* Wrote the first draft of the node type ARC (21), the goal is to codify the properties of each node type, input welcome.
+
 ### Akis:
 
 ### Jules:
