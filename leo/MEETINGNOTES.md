@@ -1,3 +1,38 @@
+# Leo Standup Notes (8/11/21)
+
+Welcome to the notes page for the most recent Leo standup. Please see below for topics covered during the public discussion:
+
+## Agenda
+
+* Weekly standups from the Leo team (30 min.)
+* Current sprint epic conversation (10 min.)
+* Community questions (15 min.)
+
+## Standups
+
+### Jon
+
+Blockers:
+
+### Damir
+
+Blockers:  
+
+### EM
+
+Blockers:  
+
+### Max
+
+### Alessandro
+
+### Topics:
+
+* Feature Bounties:  
+
+
+---------------
+
 
 # Leo Standup Notes (8/4/21)
 
