@@ -20,12 +20,7 @@ Blockers:
 
 ### EM
 
-* Reduced leo clone size from 135 mb to 28 mb
-* Reduced output size for tgc CI
-* made plan for input file checksum recording
-* part way through tgc for type inference
 Blockers:  
-* waiting for License approval to make public leo-acl2-bin repo
 
 ### Max
 
@@ -76,6 +71,14 @@ Blockers:  None.
 * ACL2 bin moving to another github repo.  Will force-remove the bin branch to reduce Leo repository size.
 * Had a meeting with Damir, planning to add checksums to the theorem files.  Add theorem generation and checking for type inference.  
 * Planning to reduce verbosity of the TGC output. 
+
+Blockers:  None.
+
+### Jon
+
+* Continued to work on improving Leo Errors. Everything is now documented.
+* Branch will generate a gh-pages for the crates documetnation on master.
+* Also started looking into to bits or to bytes methods, and basic types as circuits.
 
 Blockers:  None.
 
