@@ -43,6 +43,16 @@ Blockers:  None.
 
 * IR approved a week ago by Howard.  I rebased, but haven't been working on it due to snarkOS issues.
 
+### Alessandro
+
+* Written an RFC for bit/byte conversions and made PR.
+* Elaborated canonicalization and import approach with Jon and Eric.
+* Made a new compiler architecture diagram that includes ACL2 theorem generation and checking.
+* Created Issues in leo-acl2 repo for ACL2 theorem generation and checking for all Leo compiler phases.
+* Made small improvement to the ABNF grammar.
+* Used above improvements to simplify formal specification of lexing and parsing.
+* Continued defining the mapping from concrete to abstract syntax in ACL2.
+
 ### Topics:
 
 * Bounty issues:  We can discuss specific github issues for bounties in the prioritization meeting on Thursdays.
