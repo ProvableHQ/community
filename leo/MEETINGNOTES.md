@@ -12,7 +12,11 @@ Welcome to the notes page for the most recent Leo standup. Please see below for 
 
 ### Jon
 
-Blockers:
+* Continued to work on improving Leo Errors. Everything is now documented.
+* Branch will generate a gh-pages for the crates documetnation on master.
+* Also started looking into to bits or to bytes methods, and basic types as circuits.
+
+Blockers:  None.
 
 ### Damir
 
@@ -54,6 +58,7 @@ Welcome to the notes page for the most recent Leo standup. Please see below for 
 * Errors:  Easy way to generate errors.  Uses a DSL to figure out error codes that are added.  We can have unique error codes for specific problems.  We now have unified Leo types specific for errors.
 * Added back-traces.  
 * Rust has an error index by error code, and we're going to have something similar.  Plan is to generate docs. Elijah:  Let's look into panic hooks.  Jon:  Will check it out.  :)
+* 
 
 Blockers:  None
 
@@ -71,14 +76,6 @@ Blockers:  None.
 * ACL2 bin moving to another github repo.  Will force-remove the bin branch to reduce Leo repository size.
 * Had a meeting with Damir, planning to add checksums to the theorem files.  Add theorem generation and checking for type inference.  
 * Planning to reduce verbosity of the TGC output. 
-
-Blockers:  None.
-
-### Jon
-
-* Continued to work on improving Leo Errors. Everything is now documented.
-* Branch will generate a gh-pages for the crates documetnation on master.
-* Also started looking into to bits or to bytes methods, and basic types as circuits.
 
 Blockers:  None.
 
