@@ -20,7 +20,12 @@ Blockers:
 
 ### EM
 
+* Reduced leo clone size from 135 mb to 28 mb
+* Reduced output size for tgc CI
+* made plan for input file checksum recording
+* part way through tgc for type inference
 Blockers:  
+* waiting for License approval to make public leo-acl2-bin repo
 
 ### Max
 
