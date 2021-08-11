@@ -30,6 +30,7 @@ Blockers:
 * part way through tgc for type inference
 
 Blockers:  
+
 * waiting for License approval to make public leo-acl2-bin repo 
 
 ### Max
