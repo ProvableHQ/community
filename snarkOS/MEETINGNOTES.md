@@ -22,6 +22,12 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ### Max:
 
+
+* Storage refactor is merged in staging, seems stable so far
+* Dynamic sync is also stable, need to add some tests before merging to staging
+* Miner refactors for early termination are complete, blocked on snarkVM release
+* Want to start designing new storage formats (cap n' proto/protobuf) in preparation for testnet2
+
 ### Howard:
 
 ### Niklas:
