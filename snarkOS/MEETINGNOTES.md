@@ -13,6 +13,13 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ### Lukasz:
 
+- improved bootnode peering behavior
+- made connection buffers elastic
+- increased and sped up block dedup cache
+- did some work on the groth16 branch
+- almost adjusted the storage validator to the new storage
+- did some reviews in snarkVM
+
 ### Max:
 
 ### Howard:
