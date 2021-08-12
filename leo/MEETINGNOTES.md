@@ -20,7 +20,7 @@ Blockers:  None.
 
 ### Damir
 
-Blockers:  
+Blockers:
 
 ### EM
 
@@ -29,9 +29,9 @@ Blockers:
 * made plan for input file checksum recording
 * part way through tgc for type inference
 
-Blockers:  
+Blockers:
 
-* waiting for License approval to make public leo-acl2-bin repo 
+* waiting for License approval to make public leo-acl2-bin repo
 
 ### Max
 
@@ -39,7 +39,7 @@ Blockers:
 
 ### Topics:
 
-* Feature Bounties:  
+* Feature Bounties:
 
 
 ---------------
@@ -59,30 +59,30 @@ Welcome to the notes page for the most recent Leo standup. Please see below for 
 
 ### Jon
 
-* Started type aliases.  Moving the import resolution from the ASG to AST.  Ran into cyclic dependencies.  
+* Started type aliases.  Moving the import resolution from the ASG to AST.  Ran into cyclic dependencies.
 * For large rewrites, I'd like to do code review calls.  Max:  Pair peer review are effective strategies for large patches.
 * We should make a tag for issues/problems that need better error messages.  Should be a proposal for a better error message.  We'll pick it in the prioritization meeting.
 * Errors:  Easy way to generate errors.  Uses a DSL to figure out error codes that are added.  We can have unique error codes for specific problems.  We now have unified Leo types specific for errors.
-* Added back-traces.  
+* Added back-traces.
 * Rust has an error index by error code, and we're going to have something similar.  Plan is to generate docs. Elijah:  Let's look into panic hooks.  Jon:  Will check it out.  :)
-* 
+*
 
 Blockers:  None
 
 ### Damir
 
-* Working on an example for Strings for Leo playground.  Important for the contest.  Palindrome checking for a string with 20 symbols.  
-* Will post an update to dev docs about `global const`.  
-* More work on imports, second-level dependencies; . 
-* Took the simplified version of the TGC (theorem generation and checking) and made it work in a CI branch in Leo.  It's good because it found a bug in canonicalization. 
+* Working on an example for Strings for Leo playground.  Important for the contest.  Palindrome checking for a string with 20 symbols.
+* Will post an update to dev docs about `global const`.
+* More work on imports, second-level dependencies; .
+* Took the simplified version of the TGC (theorem generation and checking) and made it work in a CI branch in Leo.  It's good because it found a bug in canonicalization.
 
 Blockers:  None.
 
 ### EM
 
 * ACL2 bin moving to another github repo.  Will force-remove the bin branch to reduce Leo repository size.
-* Had a meeting with Damir, planning to add checksums to the theorem files.  Add theorem generation and checking for type inference.  
-* Planning to reduce verbosity of the TGC output. 
+* Had a meeting with Damir, planning to add checksums to the theorem files.  Add theorem generation and checking for type inference.
+* Planning to reduce verbosity of the TGC output.
 
 Blockers:  None.
 
@@ -104,5 +104,3 @@ Blockers:  None.
 
 * Bounty issues:  We can discuss specific github issues for bounties in the prioritization meeting on Thursdays.
 * Can we merge if we have rights (i.e., one other approval/review, CI passes, tests exist for the PR, major initiatives have indicated the feature/fix is appropriate, docs are written)?  Answer:  Damn straight.
-
-
