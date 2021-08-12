@@ -32,6 +32,10 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ### Niklas:
 
+* Reviewed and merged a bunch of PRs, did some post-storage-refactor fixes (inaccurate block height and inbound successes metrics), refactored some tests including checking the node's memory use; connection handling isn't leaking. Also helped out with the Prometheus/Grafana dashboard setup.
+* Reminder: ARC 21 is still in need of feedback, notably in regards to the bootnodes. I've pre-emptively filed a PR removing the sync layer from the bootnodes and the crawlers, this was approved by Max but it would be good to confirm this is what we want through the ARC process.
+* Currently benchmarking and improving some hash map uses to store pre-hashed data; no blockers.
+
 ### Akis:
 
 ### Jules:
