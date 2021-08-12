@@ -13,20 +13,24 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ### Lukasz:
 
-- improved bootnode peering behavior
-- made connection buffers elastic
-- increased and sped up block dedup cache
-- did some work on the groth16 branch
-- almost adjusted the storage validator to the new storage
+- improved bootnode peering behavior - Only two random bootnodes are picked on start instead of connecting to all of them.
+- made connection buffers elastic - No longer pre-allocate the buffers with the max network buffer size.  Lowers mem use.
+- increased and sped up block dedup cache - Also fixed the metric related to the number of inbound blocks.
+- did some work on the groth16 branch - Just introduced a new RPC, added a way to obtain the current ledger digest.  
+- almost adjusted the storage validator to the new storage - Still need to update the tests.
 - did some reviews in snarkVM
+
+Blockers:  None.
 
 ### Max:
 
-
 * Storage refactor is merged in staging, seems stable so far
-* Dynamic sync is also stable, need to add some tests before merging to staging
-* Miner refactors for early termination are complete, blocked on snarkVM release
+* Dynamic sync is also stable, need to add some tests before merging to staging - Dynamic means including fork tips in block locater hashes; allows us to continue syncing forks that are long and old.
+* Miner refactors for early termination are complete, blocked on snarkVM release 
 * Want to start designing new storage formats (cap n' proto/protobuf) in preparation for testnet2
+* New update script for Ubuntu - Needs to be approved and merged.
+
+Blockers:  Need a snarkVM release.
 
 ### Howard:
 
@@ -36,13 +40,27 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 * Reminder: ARC 21 is still in need of feedback, notably in regards to the bootnodes. I've pre-emptively filed a PR removing the sync layer from the bootnodes and the crawlers, this was approved by Max but it would be good to confirm this is what we want through the ARC process.
 * Currently benchmarking and improving some hash map uses to store pre-hashed data; no blockers.
 
+Blocker:  None.
+
 ### Akis:
 
 ### Jules:
 
 ### Mark
 
+* Github repo hygiene
+* Grafana visualizaion work - Grafana cloud does not allow a dynamic public view of the dashboard.  You can do snapshots publicly.  There are other things like github plugins so that we can get releases and PRs in the graphs so we can do regression tracking. At some point we will need to move to a self-hosted grafana so that we can do better than what the cloud version provides.  About 50% blocked on some things.  Plan is to keep iterating on this and making it more informative so that we can pinpoint issues when we see them on the network.
+
 ### Fabiano:
+
+* Focused on setup.  Been keeping an eye on the bootnodes and the miners
+* Repaired a few of them that are running on the old storage.  Repair tool said they are valid.  
+* Most of the miners seem to be stuck.
+* Out of the six, four of the miners are stuck.
+* Some are still running out of memory, so they are on auto-restart
+* Reduced max peers to 750, and still some are running out of memory.  Some have been reduced to 450 or 500.
+* Want to add a couple of nodes from a different cloud providers.
+
 
 ## Orphan Rate
 
@@ -54,6 +72,12 @@ Tracking Epic:
 
 ## Take-aways:
 
+Long forks.  Options:
+
+* Improve the application level responsiveness:  Improve inbound queue response.
+* Improve the miner orphan rate:  Miner starts on the wrong block number.  Mining rounds take about 3s. 
+* Block nodes on older versions
+* Launch a new network.  Make sure that our next network doesn't fork.  
 
 ## Questions (Community welcome!)
 
