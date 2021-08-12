@@ -37,6 +37,8 @@ Blockers:
 
 ### Alessandro
 
+* A few GitHub and Slack activities, e.g. merging PRs.
+
 ### Topics:
 
 * Feature Bounties:
