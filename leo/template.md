@@ -1,4 +1,4 @@
-# Leo Standup Notes (yyyy/mm/dd)
+# Leo Standup Notes (yyyy-mm-dd)
 
 Welcome to the notes page for the most recent Leo standup. Please see below for topics covered during the public discussion:
 
