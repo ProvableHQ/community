@@ -1,0 +1,54 @@
+# snarkOS Standup Notes (2021/09/16)
+
+Welcome to the notes page for the most recent snarkOS standup. Please see below for topics covered during the public discussion:
+
+## Agenda
+
+* Weekly standups from the snarkOS team (30 min.)
+* Current sprint epic conversation (10 min.)
+* Community questions (15 min.)
+
+## Standups
+
+### Lukasz
+
+Updates:
+
+* OoO
+
+### Niklas
+
+Updates:
+
+* Tweaked and merged the beacon/sync provider PR into `staging`.
+* Filed a fix for the broken sync items metric.
+* PR reviews leading up to the latest release, also dependency updates.
+* 200+ nodes are already running the latest release.
+* Next: resuming work on my ongoing refactors of the network crate that were priviously blocked by unmerged PRs.
+
+Blockers:
+
+* None
+
+### Max
+
+Updates:
+
+Blockers:
+
+### Howard
+
+Updates:
+
+Blockers:
+
+### Fabiano
+
+Updates:
+
+Blockers:
+
+### Topics
+
+### Community questions
+
