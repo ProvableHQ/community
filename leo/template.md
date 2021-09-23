@@ -70,6 +70,16 @@ Blockers:
 
 * None
 
+### Mazdak:
+
+Updates:
+
+* None.
+
+Blockers:
+
+* None.
+
 ### Topics
 
 * None
