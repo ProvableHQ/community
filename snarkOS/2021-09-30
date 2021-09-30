@@ -1,0 +1,54 @@
+snarkOS Standup Notes (2021/09/30)
+
+Welcome to the notes page for the most recent snarkOS standup. Please see below for topics covered during the public discussion:
+Agenda
+
+    Weekly standups from the snarkOS team (30 min.)
+    Current sprint epic conversation (10 min.)
+    Community questions (20 min.)
+
+Standups
+Lukasz
+
+Updates:
+
+- OoO
+
+Niklas
+
+Updates:
+
+- Did some more reviewing and small fixes around the codebase.
+- Set up a long running dev box (thank you Fabiano) for troubleshooting and running nodes.
+- Over 1000 nodes running the latest release.
+- Paused refactors to stay out of Max's way and currently working on metrics tests.
+
+Blockers:
+
+    None.
+
+Max
+
+Updates:
+
+Blockers:
+Howard
+
+Updates:
+
+Blockers:
+Mark H
+
+Updates:
+
+Blockers:
+Fabiano
+
+Updates:
+
+Blockers:
+
+Topics
+
+Community questions
+
