@@ -1,0 +1,89 @@
+# Leo Standup Notes (2021-09-30)
+
+Welcome to the notes page for the most recent Leo standup. Please see below for topics covered during the public discussion:
+
+## Agenda
+
+* Weekly standups from the Leo team (30 min.)
+* Current sprint epic conversation (10 min.)
+* Community questions (15 min.)
+
+## Standups
+
+### Jon
+
+Updates:
+
+* None
+
+Blockers:
+
+* None
+
+### Damir
+
+Updates:
+
+* None
+
+Blockers:
+
+* None
+
+### Eric M
+
+Updates:
+
+* None
+
+Blockers:
+
+* None
+
+### Max
+
+Updates:
+
+* None
+
+Blockers:
+
+* None
+
+### Alessandro
+
+Updates:
+
+* None
+
+Blockers:
+
+* None
+
+### Elijah
+
+Updates:
+  * a bunch of small finishing touches with IR
+  * added easy way to emit IR for snarkvm tests
+  * waiting on snarkvm to merge the IR PR and make a new release so the leo PR can be merged
+  * currently working on bounded recursion
+
+* None
+
+Blockers:
+
+* None
+
+### Mazdak:
+
+Updates:
+
+* None.
+
+Blockers:
+
+* None.
+
+### Topics
+
+* None
