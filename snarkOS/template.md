@@ -10,7 +10,7 @@ Welcome to the notes page for the most recent snarkOS standup. Please see below 
 
 ## Standups
 
-### Jon
+### Lukasz
 
 Updates:
 
@@ -20,17 +20,7 @@ Blockers:
 
 * None
 
-### Damir
-
-Updates:
-
-* None
-
-Blockers:
-
-* None
-
-### EM
+### Niklas
 
 Updates:
 
@@ -50,7 +40,7 @@ Blockers:
 
 * None
 
-### Alessandro
+### Anthony
 
 Updates:
 
@@ -60,7 +50,17 @@ Blockers:
 
 * None
 
-### Elijah
+### Mark H
+
+Updates:
+
+* None
+
+Blockers:
+
+* None
+
+### Fabiano
 
 Updates:
 
@@ -72,4 +72,8 @@ Blockers:
 
 ### Topics
 
-* None
+*
+
+### Community questions
+
+*
