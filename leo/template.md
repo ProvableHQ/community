@@ -70,7 +70,7 @@ Blockers:
 
 * None
 
-### Mazdak:
+### Mazdak
 
 Updates:
 
