@@ -38,12 +38,7 @@ Blockers:
 
 Updates:
 
-* fixed flying duplicates bug - no longer an issue
-* working on const functions
-    * global const functions done
-    * rewriting circuit member parsing to allow const functions there
-    * adding tests for each possible scenario
-* then will work on adding it to the IR
+* None
 
 Blockers:
 
