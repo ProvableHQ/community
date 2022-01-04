@@ -40,12 +40,6 @@ Blockers:
 
 * None
 
-### Max
-
-Updates:
-
-* None
-
 Blockers:
 
 * None
